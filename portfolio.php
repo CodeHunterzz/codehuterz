@@ -58,16 +58,16 @@
             <?php include 'inc/porfolio/work.php'; ?>
         </section>
 
-        <section class="section-book ">
+ <!--     <section class="section-book ">
 			<div class="call-to-action">
 				<div class="row js--wp-11">
 					<h2>Are you ready to get <br> started?</h2>
 				</div><!-- end .row -->
-				<div class="row js--wp-12">
+<!--				<div class="row js--wp-12">
 					<a href="quote_form.php" class="btn-go">Let's go &nbsp; <i class="far fa-paper-plane"></i></a>
 				</div><!-- end .row -->
-			</div>
-        </section>
+<!--			</div>
+        </section> -->
     </main>
 
     <?php include 'inc/main-footer.php'; ?>

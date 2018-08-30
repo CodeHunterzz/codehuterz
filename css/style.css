@@ -818,7 +818,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  width: 100%; 
   z-index: -1;
   overflow: hidden;
   opacity: .6; }
@@ -1088,10 +1088,10 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header_logo-box {
     position: absolute;
-    top: 4rem;
+    top: 2.5rem;
     left: 4rem; }
   .header_logo {
-    height: 10rem; }
+    height: 10.5rem; }
   .header_text-box {
     position: absolute;
     top: 40%;
@@ -1180,7 +1180,7 @@ body {
         margin-bottom: 2rem;
         margin-top: 10rem; } }
   .footer_logo {
-    width: 11rem;
+    width: 14rem;
     height: auto; }
   .footer_logo-1 {
     color: #fff; }

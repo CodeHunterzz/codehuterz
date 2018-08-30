@@ -40,7 +40,7 @@
                 <span class="heading-primary--main-sub">Hunterz</span>
                 <span class="heading-primary--sub">IS WHERE telent turns into code</span>
             </h1>
-            <a href="#section-about" class="btn btn--transparent btn--animated">Discover more</a>
+        <!--    <a href="#section-about" class="btn btn--transparent btn--animated">Discover more</a> -->
         </div>
 
     </header>
@@ -196,7 +196,7 @@
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-phone"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Multi cdn
+                                <h3 class="thecard-text">Multi CDN
                                     <br>support</h3>
                             </div>
 

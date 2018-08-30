@@ -26,8 +26,8 @@
             <div class="col-md-6">
                 <p class="footer_copyright">
                     Built by
-                    <a href="about.html" class="footer_link">EBX team</a>
-					<br> Copyright &copy; EBX Hub
+                    <a href="about.html" class="footer_link">Code Hunterz team</a>
+					<br> Copyright &copy; Code Hunterz
                 </p>
             </div>
         </div>

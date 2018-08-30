@@ -1,37 +1,37 @@
 <div class="container js--wp-1">
 	<div class="row">
 		<div class="col-1-of-3 smaller-box square-back">
-			<img src="img/portfolio-images/square_nine.png" alt="Square_Nine_Hotel">
+			<img src="img/portfolio-images/srecko.png" alt="Pizzeria_Srecko_logo">
 			<div class="linkBox">
-				<h3>Square Nine Hotel Belgrade</h3>
-				<p>Google AdWords campaigns</p>
-				<a href="http://www.squarenine.rs/serbian" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<h3>Pizzeria Srecko</h3>
+				<p>Web site</p>
+				<a href="http://picerijasrecko.com/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- .linkText -->
 		</div>
-		<div class="col-1-of-3 smaller-box marryed-back">
-			<img src="img/portfolio-images/marryed.png" alt="Maryed_group_logo">
+		<div class="col-1-of-3 smaller-box beogal-back">
+			<img src="img/portfolio-images/beogal.jpg" alt="Beogal_logo" class="beogal">
 			<div class="linkBox">
-				<h3>Marryed Group</h3>
-				<p>Web site, Marketing concept, SM advertising, SM campaigns</p>
-				<a href="soon/soon.html" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<h3>Beogal</h3>
+				<p>Web site, Marketing concept</p>
+				<a href="http://beogal.com/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
-		<div class="col-1-of-3 smaller-box cd-back">
-			<img src="img/portfolio-images/cd_travel.jpg" alt="CD_travel_logo">
+		<div class="col-1-of-3 smaller-box sizor-back">
+			<img src="img/portfolio-images/sizor.png" alt="Sizor_logo">
 			<div class="linkBox">
-				<h3>CD Travel</h3>
-				<p>Google AdWords campaigns, SM advertising</p>
-				<a href="http://cdtravel.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<h3>Sizor</h3>
+				<p>Web site</p>
+				<a href="http://sizor.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 	</div><!-- end .row -->
 	<div class="row">
-		<div class="col-1-of-3 smaller-box intranet-back">
-			<img src="img/portfolio-images/intranet_centar.png" alt="Intranet_Centar_logo">
+		<div class="col-1-of-3 smaller-box foodlove-back">
+			<img src="img/portfolio-images/foodlove.png" alt="FoodLove_logo">
 			<div class="linkBox">
-				<h3>Intranet Centar</h3>
-				<p>Google AdWords campaigns, Facebook advertising</p>
-				<a href="http://www.intranetcentar.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<h3>Food &amp; Love</h3>
+				<p>Web site</p>
+				<a href="http://food-love.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 		<div class="col-1-of-3 smaller-box immo-back-color">
@@ -46,18 +46,18 @@
 			<img src="img/portfolio-images/formavitale.png" alt="Forma_vitale_logo">
 			<div class="linkBox">
 				<h3>Forma Vitale</h3>
-				<p>Web site, Facebook advertising, Google AdWords campaigns</p>
+				<p>Web site</p>
 				<a href="soon/soon.html" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 	</div><!-- end .row -->
 	<div class="row">
-		<div class="col-1-of-3 smaller-box miha-back-color">
-			<img src="img/portfolio-images/miha_bodytec_logo.png" alt="Miha_Bodytec_Fitness">
+		<div class="col-1-of-3 smaller-box bokado-color">
+			<img src="img/portfolio-images/bokado.png" alt="Bokado_logo">
 			<div class="linkBox">
-				<h3>Miha Bodytec</h3>
-				<p>Web site, Facebook advertising, Google AdWords campaigns</p>
-				<a href="http://formavitale.rs/trening" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<h3>Bokado</h3>
+				<p>Web site</p>
+				<a href="http://bokado.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 		<div class="col-1-of-3 smaller-box del-back-color">
@@ -77,7 +77,7 @@
 			</div><!-- end .linkText -->
 		</div>
 	</div><!-- end .row -->
-	<div class="row">
+<!--	<div class="row">
 		<div class="col-1-of-3 smaller-box velvet-back">
 			<img src="img/portfolio-images/velvet_central.png" alt="Velvet_Central_logo" class="velvet">
 			<div class="linkBox">
@@ -85,21 +85,21 @@
 				<p>Web site</p>
 				<a href="soon/soon.html" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
-		</div>
+<!--		</div>
 		<div class="col-1-of-3 smaller-box color-box1">
 			<h3>Coming <br>soon <br>...</h3>
 			<div class="linkBox">
 				<p>Very soon...</p>
 				<i class="far fa-smile"></i>
 			</div><!-- end .linkText -->
-		</div>
+<!--		</div>
 		<div class="col-1-of-3 smaller-box color-box2">
 			<h3>Coming <br>soon<br>...</h3>
 			<div class="linkBox">
 				<p>Very soon...</p>
 				<i class="far fa-smile"></i>
 			</div><!-- end .linkText -->
-		</div>
+<!--		</div>
 	</div><!-- end .row -->
 	<div class="row">
 		<p class="small-copy">Our professional web design services include ecommerce, custom website design for writers, attorneys, contractors and all varieties of small business.</p>

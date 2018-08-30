@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Code Hunterz</title>
+	<title>EBX solution</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/icon-font.css">
@@ -34,54 +34,7 @@
 	
 	<header class="quote-header">
 		<div class="row box">
-			<div class="navigation">
-        		<input type="checkbox" class="navigation_checkbox" id="navi-toggle">
-
-        		<label for="navi-toggle" class="navigation_button">
-            		<span class="navigation_icon">
-
-            		</span>
-        		</label>
-
-        	<div class="navigation_background">&nbsp;</div>
-
-        	<nav class="navigation_nav">
-            	<ul class="navigation_list">
-                	<li class="navigation_item">
-                    	<a href="index.html" class="navigation_link">HOME</a>
-                	</li>
-                	<li class="navigation_item">
-                    	<a href="about.html" class="navigation_link">ABOUT US</a>
-                	</li>
-                	<li class="navigation_item">
-                    	<a href="portfolio.html" class="navigation_link">PORTFOLIO</a>
-                	</li>
-                	<!-- <li class="navigation_item">
-                    	<a href="testimonials.html" class="navigation_link">TESTIMONIALS</a>
-                	</li>
-                	<li class="navigation_item">
-                    	<a href="contact.html" class="navigation_link">CONTACT US</a>
-                	</li>
-                	<li class="navigation_item">
-                    	<a href="./blogovi/archive.html" class="navigation_link">BLOG</a>
-                	</li> -->
-                	<hr class="navigation_hr">
-                		<a href="https://www.facebook.com/" class="icon-nav">
-                    		<i class="fab fa-facebook fa-3x" id=""></i>
-                		</a>
-                		<a href="https://www.linkedin.com" class="icon-nav">
-                    		<i class="fab fa-linkedin fa-3x"></i>
-                		</a>
-                		<a href="https://www.google.rs/" class="icon-nav">
-                    		<i class="fab fa-twitter-square fa-3x"></i>
-                		</a>
-                		<a href="https://github.com/EBXHub" class="icon-nav">
-                    		<i class="fab fa-github-square fa-3x"></i>
-                		</a>
-                	<p class="navigation_lng">EN/SRB</p>
-            </ul>
-        </nav>
-    	</div>
+			<?php include 'inc/nav.php'; ?>
 		</div><!-- end .row -->
 		<div class="row">
 			<div class="hero-box">
@@ -119,13 +72,23 @@
 						</div>
 						<div class="col span-2-of-3 form-field">
 							<input type="text" name="name" id="name" placeholder="Your name" required>
+							<?php
+								if ($_GET['name'] == -1) {
+									echo "<div class=\"form-messages error\">Please enter your name!</div>";
+								}
+							?>
 						</div>
 					</div> <!-- end .row -->
 					<div class="row box">
 						<div class="col span-1-of-3 form-field">
 							<label for="email">Email address:&nbsp;*</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
+						<div class="col span-2-of-3 form-field" id="email-input">
+							<?php
+								if ($_GET['email'] == -1) {
+									echo "<div class=\"form-messages error\">Please enter your email address!</div>";
+								}
+							?>
 							<input type="email" name="email" id="email" placeholder="Your email address" required>
 						</div>
 					</div> <!-- end .row -->
@@ -133,15 +96,25 @@
 						<div class="col span-1-of-3 form-field">
 							<label for="web">Current web site:</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
-							<input type="text" name="web" id="web">
+						<div class="col span-2-of-3 form-field" id="web">
+							<?php
+								if ($_GET['web'] == -1) {
+									echo "<div class=\"form-messages error\">Please enter your web site!</div>";
+								}
+							?>
+							<input type="text" name="web" id="web" placeholder="http://www.">
 						</div>
 					</div> <!-- end .row -->
 					<div class="row box">
 						<div class="col span-1-of-3 form-field">
 							<label for="bus_name">Business name:</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
+						<div class="col span-2-of-3 form-field" id="bus-name">
+							<?php
+								if ($_GET['bus-name'] == -1) {
+									echo "<div class=\"form-messages error\">Please enter your Business name!</div>";
+								}
+							?>
 							<input type="text" name="bus_name" id="bus_name">
 						</div>
 					</div> <!-- end .row -->
@@ -149,18 +122,23 @@
 						<div class="col span-1-of-3 form-field">
 							<label>Are you interested in:&nbsp;*</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
+						<div class="col span-2-of-3 form-field" id="proposal">
+							<?php
+								if ($_GET['proposal'] == -1) {
+										echo "<div class=\"form-messages error\">Please select at least 1 item!</div>";
+								}
+							?>
 							<?php
 								$checks = array(
-											'web_design' => 'Custom web design', 
-											'seo' => 'Search Engine Optimization', 
-											'wordpress' => 'WordPress',
-											'internet_marketing' => 'Internet Marketing',
-											'SM' => 'Social Media advertising',
-											'e-commerce' => 'E-commerce web site'
+											'Web_design' => 'Custom web design', 
+											'SEO' => 'Search Engine Optimization', 
+											'WordPress' => 'WordPress',
+											'Internet_marketing' => 'Internet Marketing',
+											'Social_media' => 'Social Media advertising',
+											'E-commerce_web_site' => 'E-commerce web site'
 										);
 								foreach ($checks as $key => $check) {
-									echo "<input type='checkbox' name='proposal[]' value='$key' id='check'> $check<br>";
+									echo "<input type='checkbox' name='proposal[]' value='$key' class='check'> $check<br>";
 								}
 							
 							?>
@@ -170,13 +148,13 @@
 						<div class="col span-1-of-3 form-field">
 							<label for="find-us">How did you find us?</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
+						<div class="col span-2-of-3 form-field" id="select">
 							<?php
 								$choices = array( 
 											'friends' => 'Friends', 
-											'search' => 'Search', 
-											'advertisement' => 'Advertisement', 
-											'other' => 'Other'
+											'Search' => 'Search', 
+											'Advertisement' => 'Advertisement', 
+											'Other' => 'Other'
 											);
 								echo "<select name='find' id='find'>\n";
 								foreach ($choices as $key => $choice) {
@@ -188,9 +166,14 @@
 					</div> <!-- end .row -->
 					<div class="row box">
 						<div class="col span-1-of-3 form-field">
-							<label>Please tell us a little about you and/or your business</label>
+							<label>Please tell us a little about you and/or your business&nbsp;*</label>
 						</div>
-						<div class="col span-2-of-3 form-field">
+						<div class="col span-2-of-3 form-field" id="msg">
+							<?php
+								if ($_GET['message'] == -1) {
+										echo "<div class=\"form-messages error\">Please write something about you or your business!</div>";
+								}
+							?>
 							<textarea name="message" id="message" placeholder="Your message" required></textarea>
 						</div>  
 					</div> <!-- end .row -->
@@ -207,44 +190,7 @@
 		</div> <!-- end .form-box -->
 	</section>
 	
-	<footer class="footer">
-        <div class="footer_logo-box">
-            <img src="img/logo-white.png" alt="Full logo" class="footer_logo">
-			<br>
-		</div>
-        <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="footer_navigation">
-                    <ul class="footer_list">
-                        <li class="footer_item">
-                            <a href="#" class="footer_link">About</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_link">Blog</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_link">Contact us</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_link">Privacy policy</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_link">Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <p class="footer_copyright">
-                    Built by
-                    <a href="#" class="footer_link">EBX team</a>
-					<br> Copyright &copy; EBX Hub
-                </p>
-            </div>
-        </div>
-    	</div>
-    </footer>
+	<?php include 'inc/main-footer.php'; ?>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>

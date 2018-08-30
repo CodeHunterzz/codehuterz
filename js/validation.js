@@ -1,0 +1,5 @@
+
+$('#quote-form').validate();
+
+
+

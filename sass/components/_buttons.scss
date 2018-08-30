@@ -1,0 +1,162 @@
+.btn{
+        &,
+        &:link,
+        &:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1.5rem 4rem;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+            position: relative;
+            animation-name: moveBtbUp;
+            animation-duration: 2s;
+            font-size: 1.6rem;
+
+            //change to the button element
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        
+    
+        &--white{
+            background-color: $color-white;
+            color: $color-grey-dark;
+    
+            &::after{
+                background-color: $color-white;
+            }
+        }
+
+        &--green{
+            background-color: $color-primary-light;
+            color: $color-white;
+    
+            &::after{
+                background-color: $color-primary-light;
+            }
+            
+        }
+
+      
+
+    
+
+        &--transparent {
+            background-color: transparent;
+            color: $color-white;
+            border: 1px solid $color-white!important;
+        }
+        
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+            color: $color-primary-dark;
+    
+            &::after{
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+        }
+        
+        &:active {
+            outline: none;
+            transform: translateY(-.1rem);
+            box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+        }
+
+        &:focus {
+            outline: none;
+        }
+        
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 10rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .4s;
+        }
+    
+        &--animated{
+            animation: moveBtbUp .5s ease-out .75s;
+            animation-fill-mode: backwards;
+        }
+    }
+
+    .btn-s{
+        &,
+        &:link,
+        &:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1rem 3.5rem;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+            position: relative;
+            animation-name: moveBtbUp;
+            animation-duration: 2s;
+            font-size: 1.6rem;
+
+            //change to the button element
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        
+        &--orange {
+            background-color: $color-primary-light;
+            color: $color-white;
+    
+            &::after{
+                background-color: $color-primary-light;
+            }
+        }
+      
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+            color: $color-primary-dark;
+    
+            &::after{
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+        }
+        
+        &:active {
+            outline: none;
+            transform: translateY(-.1rem);
+            box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+        }
+
+        &:focus {
+            outline: none;
+        }
+        
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 10rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .4s;
+        }
+    
+        &--animated{
+            animation: moveBtbUp .5s ease-out .75s;
+            animation-fill-mode: backwards;
+        }
+    }

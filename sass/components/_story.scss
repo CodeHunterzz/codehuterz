@@ -1,0 +1,107 @@
+.story {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    background-color: rgba($color-white, 0.7);
+    border-radius: 3px;
+    padding: 4rem;
+    padding-left: 9rem;
+    font-size: $default-font-size;
+    transform: skewX(-12deg);
+    backface-visibility: hidden;
+    @include respond(tab-port) {
+        transform: skewX(0deg);
+        padding: 4rem;
+    }
+
+    &_heading-1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #404551;
+        line-height: 1.2;  
+    }
+
+    &_heading-2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.9rem;
+        font-weight: 600;
+        color: #404551;
+        line-height: 1.2;  
+    }
+
+    &_text{
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 0;
+        line-height: 1.9;   
+    }
+
+    &_imgg-1 {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+    
+
+    &>* {
+        transform: skewX(12deg);
+        @include respond(tab-port) {
+            transform: skewX(0deg);
+        }
+    }
+
+    &_shape {
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        position: relative;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        border-radius: 50%;
+        transform: translateX(-3rem);
+        
+        
+    }
+
+    &_img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        transform: skewX(12deg);
+        @include respond(tab-port) {
+            transform: skewX(0deg);
+        }
+    }
+
+    &_caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 20%);
+        color: $color-white;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        text-align: center;
+        opacity: 0;
+        transition: all .5s;
+        backface-visibility: hidden;
+    }
+
+    &_text {
+        backface-visibility: hidden;
+        color: black;
+    }
+
+    &:hover &_caption {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover &_img {
+        filter: blur(2px) brightness(80%);
+    }
+}

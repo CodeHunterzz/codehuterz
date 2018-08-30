@@ -1,0 +1,96 @@
+
+.thecard {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 28rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    
+
+    &-icon {
+        font-size: 7.5rem;
+        margin: 1rem 1.5rem 2rem 1.5rem;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    &-text {
+        color: #484848;
+        margin-top: 4rem;
+        font-weight: bold;
+        font-size: 2.3rem;
+        text-transform: capitalize;
+
+        @include respond(big-desktop){
+            font-size: 2rem;
+        }
+    }
+
+    &-separator {
+        width:  100%;
+        color: $color-primary-light;
+    }
+}
+
+.thecard__side {
+    background-color: rgba($color-white, .8);
+    font-size: 2rem;
+    height: 28rem;
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    border: 0.8rem solid transparent;
+    backface-visibility: hidden;
+}
+
+.thecard__side--front {
+    background-color: rgba($color-white, .8);
+    z-index: 10;
+    
+}
+
+.thecard__side--back {
+    background-color: rgba($color-white, .8);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+    &-text {
+        font-size: 1.7rem;
+        color: #383838;
+        margin-top: 0.5rem;
+    }
+    backface-visibility: hidden;
+
+    @include respond(tab-port) {
+        padding: 4rem;
+    }
+    
+}
+
+.thecard:hover .thecard__side--front {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    
+}
+
+.thecard:hover .thecard__side--back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    
+}
+
+.card-column {
+    @include respond(phone) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

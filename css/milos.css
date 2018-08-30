@@ -1,0 +1,121 @@
+
+  /* ---------------------------------------------------- */
+  /* PORTFOLIO PAGE  */
+  /* ---------------------------------------------------- */
+
+  .header_text-box .heading-primary--sub {
+  	  letter-spacing: 1.2rem;
+  }
+
+  .portfolio-h2 {
+  	margin-bottom: 25px;
+  }
+
+  .smaller-box {
+  	width: 32.5%;
+  	height: 360px;
+  	margin: 0;
+  	margin-right: 1.25%;
+  	position: relative;
+  	overflow: hidden;
+  	border-radius: 7px;
+      -webkit-box-shadow: 0px 1px 9px 1px #f4921f;
+      box-shadow: 0px 1px 9px 1px #f4921f;
+  	margin-bottom: 20px;
+  }
+
+
+  .big-box:first-child, .small-box:first-child {
+  	margin-right: 1%;
+  }
+
+  .smaller-box:nth-of-type(3n) {
+  	margin-right: 0;
+  }
+
+
+  .small-box img, .big-box img, .smaller-box img {
+  	height: 400px;
+  	width: 100%;
+  }
+
+  .linkBox {
+  	position: absolute;
+  	bottom: -360px;
+  	left: 0;
+  	height: 360px;
+  	text-align: center;
+  	padding: 50px 20px;
+  	width: 100%;
+  	background: rgba(255,255,255,0);
+  	font-size: 90%;
+  	-webkit-transition: 1s all ease;
+  	transition: 1s all ease;
+  	opacity: 0;
+  }
+
+  .small-box:hover .linkBox, .big-box:hover .linkBox, .smaller-box:hover .linkBox {
+  	background: rgba(255,176,6,0.8);
+  	border: 2px solid #f4921f;
+  	border-radius: 5px;
+  	bottom: 0;
+  	opacity: 1;
+  }
+
+  .small-box:hover .linkBox a, .big-box:hover .linkBox a, .smaller-box:hover .linkBox a {
+  	-webkit-animation: jackInTheBox 3s;
+  	animation: jackInTheBox 3s;
+  }
+
+  a.linkText:link, a.linkText:visited  {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      width: 100%;
+      display: block;
+      margin: 25% auto;
+  }
+
+  a.linkText:hover, a.linkText:active  {
+      color: #fff;
+  }
+
+  .navigation_hr {
+    background: white;
+    width: 150%;
+    margin-left: -50px; }
+
+  .navigation_lng {
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .linkBox cite {
+  	font-size: 80%;
+  	font-style: italic;
+  }
+
+  /* ------------------------------------------- */
+  /* Animations                */
+  /* ------------------------------------------- */
+
+  .js--wp-1, .js--wp-2, .js--wp-3, .js--wp-4, .js--wp-5, .js--wp-6, .js--wp-7, .js--wp-8, .js--wp-9, .js--wp-10 {
+      opacity: 0;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+  }
+
+  .js--wp-1.animated, .js--wp-2.animated, .js--wp-3.animated, .js--wp-4.animated, .js--wp-5.animated, .js--wp-6.animated, .js--wp-7.animated, .js--wp-8.animated, .js--wp-9.animated, .js--wp-10.animated   {
+      opacity: 1;
+  }
+
+
+  /* what we do izmene boje texta */
+
+  .blacktext{
+    color: #000000e3;
+  }

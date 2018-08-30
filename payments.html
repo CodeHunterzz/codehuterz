@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Code Hunterz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link rel="stylesheet" type="text/css" href="css/queries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900">
+	
+	
+    <link rel="stylesheet" type="text/css" href="payment/font-awesome/css/font-awesome.min.css" />
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/site.webmanifest">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	
+	<header class="quote-header">
+		<div class="row box">
+			<img src="img/portfolio-images/logo-black.png" class="quote-logo" rel="EBX logo">
+			<nav>
+			<ul class="payment-main-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="quote_form.html">Request a Quote</a></li>
+			</ul>
+		</nav>
+		</div><!-- end .row -->
+		<div class="row">
+			<div class="hero-box">
+				<h1>Make a Payment</h1>
+			</div>
+		</div><!-- end .row -->
+	</header>
+	
+	<section class="payment-form">
+		<div class="row box">
+		<p class="long-copy">We accept Visa, Mastercard, American Express and Discover as well as PayPal. Please contact us if you wish to pay by check and<br>
+		we can send an invoice with the mailing address.</p>
+		</div><!-- end .row -->
+		<div class="payment-form-box" id="form">
+			<div class="row">
+				<form method="post" action="mailer.php" class="contact-form">
+					<!--	<div class="row">
+							<?php 
+								if ($_GET['success'] == 1) {
+									echo: "<div class=\"form-messages success\">Thank you! Your message has been sent!</div>";
+								}
+
+								if ($_GET['success'] == -1) {
+									echo: "<div class=\"form-messages error\">Oops! Something went wrong. Please try again!</div>";
+								}			
+							?>
+						</div> <!-- end .row -->
+					<div class="row">
+						<div class="col span-1-of-3">
+							<label for="name">Full Name:</label>
+						</div>
+						<div class="col span-2-of-3">
+							<input type="text" name="name" id="name" placeholder="Your name" required>
+						</div>
+					</div> <!-- end .row -->
+					<div class="row">
+						<div class="col span-1-of-3">
+							<label for="email">Email address:</label>
+						</div>
+						<div class="col span-2-of-3">
+							<input type="email" name="email" id="email" placeholder="Your email address" required>
+						</div>
+					</div> <!-- end .row -->
+					<div class="row">
+						<div class="col span-1-of-3">
+							<label for="email">Business name:</label>
+						</div>
+						<div class="col span-2-of-3">
+							<input type="text" name="email" id="bus_name">
+						</div>
+					</div> <!-- end .row -->
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-md-4 offset-md-4">
+								<div class="card ">
+									<div class="card-header">
+										<div class="row">
+											<h3 class="text-xs-center">Payment Details</h3>
+											<img class="img-fluid cc-img" src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+										</div>
+									</div>
+									<div class="card-block">
+										<form role="form">
+											<div class="row">
+												<div class="col-xs-12">
+													<div class="form-group">
+														<label>CARD NUMBER</label>
+														<div class="input-group">
+															<input type="tel" class="form-control" placeholder="Valid Card Number" />
+															<span class="input-group-addon"><span class="fa fa-credit-card"></span></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-7 col-md-7">
+													<div class="form-group">
+														<label><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+														<input type="tel" class="form-control" placeholder="MM / YY" />
+													</div>
+												</div>
+												<div class="col-xs-5 col-md-5 float-xs-right">
+													<div class="form-group">
+														<label>CV CODE</label>
+														<input type="tel" class="form-control" placeholder="CVC" />
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12">
+													<div class="form-group">
+														<label>CARD OWNER</label>
+														<input type="text" class="form-control" placeholder="Card Owner Names" />
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+									<div class="card-footer">
+										<div class="row">
+											<div class="col-xs-12">
+												<button class="btn btn-warning btn-lg btn-block">Process payment</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col span-1-of-3">
+							<label>&nbsp;</label>
+						</div>
+						<div class="col span-2-of-3">
+							<input type="submit" id="submit-payment" value="Get Qoute Now">
+						</div>  
+					</div> <!-- end .row -->
+				</form>
+			</div> <!-- end .row -->
+		</div> <!-- end .form-box -->
+	</section>
+	
+	<footer class="footer">
+        <div class="footer_logo-box">
+            <img src="img/logo-white.png" alt="Full logo" class="footer_logo">
+			<br>
+		</div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer_navigation">
+                    <ul class="footer_list">
+                        <li class="footer_item">
+                            <a href="#" class="footer_link">About</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="#" class="footer_link">Blog</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="#" class="footer_link">Contact us</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="#" class="footer_link">Privacy policy</a>
+                        </li>
+                        <li class="footer_item">
+                            <a href="#" class="footer_link">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="footer_copyright">
+                    Built by
+                    <a href="#" class="footer_link">EBX team</a>
+					<br> Copyright &copy; EBX Hub
+                </p>
+            </div>
+        </div>
+    	</div>
+    </footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="payment/js/jquery-1.10.2.min.js"></script>
+	<script type="tex/javascript" src="payment/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/portfolio.js"></script>
+
+</body>
+	
+</html>

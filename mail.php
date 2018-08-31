@@ -5,25 +5,25 @@ if(isset($_POST['send'])) {
 	if(isset($_POST['email']) && !empty($_POST['email'])) {
 		$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 	} else {
-		header("Location: http://www.ebxsolution.com/index.php?email=-1#email-input");
+		header("Location: http://www.codehunterz.com/index.php?email=-1#email-input");
     	exit; 
 	} 
 
 	if(isset($_POST['message']) && !empty($_POST['message'])) {
 		$message = filter_var(trim($_POST["message"]), FILTER_SANITIZE_STRING);
 	} else {
-		header("Location: http://www.ebxsolution.com/index.php?message=-1#msg");
+		header("Location: http://www.codehunterz.com/index.php?message=-1#msg");
     	exit; 
 	}
 	
 }
 	
 	if (empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		header("Location: http://www.ebxsolution.com/index.php?success=-1#form");
+		header("Location: http://www.codehunterz.com/index.php?success=-1#form");
 		exit;
 	}
  
-	$recipient = "ebxsolution@gmail.com";
+	$recipient = "office@codehunterz.com";
 	
 	$subject = "Contact Form Message";
 
@@ -36,9 +36,9 @@ if(isset($_POST['send'])) {
 	$send = mail($recipient, $subject, $email_content, $email_headers);
 
 	if($send) {
-		header("Location: http://www.ebxsolution.com/index.php?success=1#form");
+		header("Location: http://www.codehunterz.com/index.php?success=1#form");
 		exit;
 	} else {
-		header("Location: http://www.ebxsolution.com/index.php?success=-1#form");
+		header("Location: http://www.codehunterz.com/index.php?success=-1#form");
 		exit;
 	}

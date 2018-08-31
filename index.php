@@ -463,9 +463,9 @@ Efficiency, speed of website development, persistence to find the right solution
 									<a href="https://www.instagram.com" class="icon-contact">
                                         <i class="fab fa-instagram fa-3x"></i>
                                     </a>
-                                    <a href="https://www.youtube.com/channel/UC50MbAm-Lr-o54pDyYH_5bQ" class="icon-nav">
+                                <!--    <a href="https://www.youtube.com/channel/UC50MbAm-Lr-o54pDyYH_5bQ" class="icon-nav">
 									  <i class="fab fa-youtube-square fa-3x"></i>
-								  	</a>
+								  	</a> -->
                                 </div>
                             </div>
                         </div>

@@ -452,16 +452,16 @@ Efficiency, speed of website development, persistence to find the right solution
                                   Social Network :
                                   <br>
 
-                                    <a href="https://www.facebook.com" class="icon-contact">
+                                    <!-- <a href=" https://www.facebook.com" class="icon-contact">
                                         <i class="fab fa-facebook fa-3x"></i>
-                                    </a>
-                                    <a href="https://rs.linkedin.com" class="icon-contact">
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/code-hunterz-58b03a170/" class="icon-contact">
                                         <i class="fab fa-linkedin fa-3x"></i>
                                     </a>
-                                    <a href="https://twitter.com" class="icon-contact">
+                                    <!-- <a href="https://twitter.com" class="icon-contact">
                                         <i class="fab fa-twitter-square fa-3x"></i>
-                                    </a>
-									<a href="https://www.instagram.com" class="icon-contact">
+                                    </a> -->
+									<a href="https://www.instagram.com/stefanparovic/" class="icon-contact">
                                         <i class="fab fa-instagram fa-3x"></i>
                                     </a>
                                 <!--    <a href="https://www.youtube.com/channel/UC50MbAm-Lr-o54pDyYH_5bQ" class="icon-nav">

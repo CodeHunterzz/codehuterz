@@ -29,21 +29,19 @@
                    <a href="./blogovi/archive.html" class="navigation_link">BLOG</a>
              </li> -->
              <hr class="navigation_hr">
-                	<a href="https://www.facebook.com/EBX-Solution-251656278943913" class="icon-nav">
+                	<!-- <a href="https://www.facebook.com/" class="icon-nav">
                     	<i class="fab fa-facebook fa-2x" id=""></i>
-                	</a>
-                	<a href="https://rs.linkedin.com/in/ebx-hub-582427153" class="icon-nav">
+                	</a> -->
+                	<a href="https://www.linkedin.com/in/code-hunterz-58b03a170/" class="icon-nav">
                     	<i class="fab fa-linkedin fa-2x"></i>
                 	</a>
-                	<a href="https://twitter.com/EbxSolution" class="icon-nav">
+                	<!-- <a href="https://twitter.com/" class="icon-nav">
                     	<i class="fab fa-twitter-square fa-2x"></i>
-                	</a>
-                	<a href="https://www.instagram.com/ebx_solution/" class="icon-nav">
+                	</a> -->
+                	<a href="https://www.instagram.com/stefanparovic/" class="icon-nav">
                     	<i class="fab fa-instagram fa-2x"></i>
                 	</a>
-					<a href="https://www.youtube.com/channel/UC50MbAm-Lr-o54pDyYH_5bQ" class="icon-nav">
-                    	<i class="fab fa-youtube-square fa-2x"></i>
-                	</a>
+					
              <!--  <p class="navigation_lng">EN/SRB</p> -->
             </ul>
       </nav>

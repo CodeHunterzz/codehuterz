@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Code Hunterz is a team of experts experienced in web development, web design and maintaining websites." />
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="css/scrool.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
-    <title>Code Hunterz</title>
+    <title>Web Development - Pravljenje web sajtova</title>
     <style media="screen">
       #container img {
         width: 100%;
@@ -38,7 +39,7 @@
             <h1 class="heading-primary">
                 <span class="heading-primary--main">Code</span>
                 <span class="heading-primary--main-sub">Hunterz</span>
-                <span class="heading-primary--sub">IS WHERE telent turns into code</span>
+                <span class="heading-primary--sub">IS WHERE talent turns into modern web development</span>
             </h1>
         <!--    <a href="#section-about" class="btn btn--transparent btn--animated">Discover more</a> -->
         </div>
@@ -61,7 +62,7 @@
                             Our clients all had a vision of how they wanted their website to look and feel but didn’t have the tools to put their vision
                             on the screen. Code Hunterz focuses on designing your website but we also focus on its functionality
                             as we know that it’s a huge influence over your prospective client’s decision whether or not
-                            to buy your product or continue reading your article. </p>
+                            to buy your product or continue reading your article. We are the best in web development, web design and responsive web design. </p>
 
                         <p class="section-about_paragraph">
                             Of course, we want to show you that we know what we’re talking about. The best way to see our talent and skills are by seeing

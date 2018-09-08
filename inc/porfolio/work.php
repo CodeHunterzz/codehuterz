@@ -39,7 +39,7 @@
 			<div class="linkBox">
 				<h3>Immo Clean</h3>
 				<p>Web site</p>
-				<a href="soon/soon.html" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<a href="http://www.immoclean.org/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 		<div class="col-1-of-3 smaller-box forma-vitale-back">
@@ -47,7 +47,7 @@
 			<div class="linkBox">
 				<h3>Forma Vitale</h3>
 				<p>Web site</p>
-				<a href="soon/soon.html" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
+				<a href="http://formavitale.rs/" class="linkText">Visit site <i class="fas fa-paper-plane"></i></a>
 			</div><!-- end .linkText -->
 		</div>
 	</div><!-- end .row -->

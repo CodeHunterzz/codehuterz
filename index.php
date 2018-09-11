@@ -444,7 +444,7 @@ Efficiency, speed of website development, persistence to find the right solution
                                   <br>
                                   <i class="far fa-envelope "></i> Email : office@codehunterz.com
                                   <br> Phone - 1 : +381/65 6928295
-                                  <br> Phone - 2 : +381/60 0003275
+                                  <br> Phone - 2 : +381/64 2618429
                               </div>
                           </div>
                           <div class="col-md-4 col-sm-12 col-12">
@@ -461,7 +461,7 @@ Efficiency, speed of website development, persistence to find the right solution
                                     <!-- <a href="https://twitter.com" class="icon-contact">
                                         <i class="fab fa-twitter-square fa-3x"></i>
                                     </a> -->
-									<a href="https://www.instagram.com/stefanparovic/" class="icon-contact">
+									<a href="https://www.instagram.com/codehunterz/" class="icon-contact">
                                         <i class="fab fa-instagram fa-3x"></i>
                                     </a>
                                 <!--    <a href="https://www.youtube.com/channel/UC50MbAm-Lr-o54pDyYH_5bQ" class="icon-nav">

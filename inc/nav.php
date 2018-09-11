@@ -38,10 +38,10 @@
                 	<!-- <a href="https://twitter.com/" class="icon-nav">
                     	<i class="fab fa-twitter-square fa-2x"></i>
                 	</a> -->
-                	<a href="https://www.instagram.com/stefanparovic/" class="icon-nav">
+                	<a href="https://www.instagram.com/codehunterz/" class="icon-nav">
                     	<i class="fab fa-instagram fa-2x"></i>
                 	</a>
-					
+
              <!--  <p class="navigation_lng">EN/SRB</p> -->
             </ul>
       </nav>
